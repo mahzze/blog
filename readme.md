@@ -1,26 +1,19 @@
-# Bloggr
+# Blog
 
-Bloggr is a blogging template engine (with markdown!) that I created, and I am open sourcing if anybody would want to use the engine, or improve upon it. 
+### Por que criar este projeto?
+A necessidade de criar este blog surgiu em uma matéria da UFABC. Este blog foi criado com base no bloggr, do 0xflux. O repo original pode ser consultado em [0xflux/bloggr](https://github.com/0xflux/bloggr/).
 
-Features:
+### Por que usar um modelo base?
+A decisão da adoção de um modelo base, ao invés de escrever o código fonte do blog eu mesmo, é simplesmente uma medida para conservar tempo. Eu poderia modificar o meu próprio blog [(mahzze/uni-blog)](https://github.com/mahzze/uni-blog/)e completar o código. Isto, no entanto, incorre em desenvolvimento frontend - uma prática na qual não possuo um domínio muito bom, e não tenho tempo o bastante para tentar aprender no momento.
 
-- Write your blogs in markdown, which automatically transform into blog posts
-- Uses Go's Gin web framework to serve content
-- HTMX templating
-- Mobile responsive
-- No databases required
-- Ready for you to start publishing, all you have to do is start writing your own markdown files in the markdown folder
+### Stack do blog
+Backend
+- Go (standard library + Gin)
+Frontend
+- Go (html/template)
+- Markdown
+- HTMX
+- CSS básico (@media queries são o que há de mais avançado no CSS deste repo)
 
-Instructions for use:
-
-- Clone this repo to your local disk 
-- Test with go run ./main.go and navigate to localhost:8080
-- Start editing the files in /markdown to see how you can customise your blog posts
-- Add your own colours and themes to the CSS file
-- Add your favicon, putting the image in /static/images/
-
-If you like this project, please give me a follow or give the project a star!
-
-Here is an example of what you can create with Bloggr!
-
-<img width="1356" alt="image" src="https://github.com/0xflux/bloggr/assets/49762827/a5ded2fb-5124-4a0b-95e9-442dc9569aa2">
+### Como copiar este blog?
+Basta clonar o repositório! Os posts não serão compartilhados, porém todo o código será explicado. Aquilo que já tiver documentação será traduzido, e o que não possui será documentado.
