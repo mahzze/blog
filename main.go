@@ -1,29 +1,29 @@
 package main
 
 /**
-To use this, make a new markdown file. For convention name the file the same as the slug. The md file should be in /markdown
+Para usar o blog, crie um novo arquivo markdown. Por convenção, o arquivo e o slug devem ter o mesmo nome. O arquivo do tipo .md deve estar em /markdown
 
-To see more detailed instructions, see my blog at  https://fluxsec.red, or reach out to me
-on twitter https://twitter.com/0xfluxsec.
+Para instruções mais detalhadas, ler o blog do criador original em https://fluxsec.red,
+ou entre em contato pelo twitter https://twitter.com/0xfluxsec.
 
-The .md file must then have the following attributes, including the 3 lines ---
-those lines separate the tags from the content:
+O arquivo .md deve conter o seguinte cabeçalho, incluindo os 3 traços.
+Eles são utilizados para separar o cabeçalho do conteudo.
 
-Title: Page title, and title in left sidebar
-Slug: slug-of-url
-Parent: The name you wish the parent series to be called
-Order: number in terms of parent order
-Description: Small strap-line description which appears under the title
-MetaPropertyTitle: Title for social sharing
-MetaDescription: Description ~ 150 - 200 words of the page for SEO.
-MetaPropertyDescription: SHORT description for social media sharing.
-MetaOgURL: https://www.fluxsec.red/slug-of-url
+Title: Titulo da página
+Slug: slug-da-url
+Parent: O nome que você quer dar à série de posts
+Order: numero em termo da ordem no parente
+Description: Curta descrição que aparece abaixo do título
+MetaPropertyTitle: Titulo para compartilhamento
+MetaDescription: Descrição de +/- 150 a 200 palavras para o SEO da página.
+MetaPropertyDescription: descrição curta para redes sociais.
+MetaOgURL: https://www.[[SEU-DOMINIO-AQUI]]/slug-da-url
 ---
-Content goes here
+Conteudo
 
-Additional downloads:
-* FontAwesome free, into /static/
-
+Downloads adicionais:
+* FontAwesome free, em /static/
+Em caso de dúvidas, verificar o arquivo /markdown/index.md
 */
 
 import (
@@ -51,7 +51,7 @@ type BlogPost struct {
 	Content                 template.HTML
 	Description             string
 	Order                   int
-	Headers                 []string // these are the in page h2 tags
+	Headers                 []string // São os <h2> ou ## de cada post
 	MetaDescription         string
 	MetaPropertyTitle       string
 	MetaPropertyDescription string
@@ -75,13 +75,13 @@ func main() {
 
 	r := gin.Default()
 
-	// sidebar data
+	// dados da sidebar (barra lateral)
 	sidebarData, err := loadSidebarData("./markdown")
 	if err != nil {
-		log.Fatal(err) // I think this one is ok
+		log.Fatal(err) // Se não for possivel carregar os posts, para o site
 	}
 
-	// register the sidebar template as a partial
+	// Registra o template da sidebar como um partial
 	r.SetFuncMap(template.FuncMap{
 		"loadSidebar": func() SidebarData {
 			return sidebarData
@@ -89,32 +89,32 @@ func main() {
 		"dict": dict,
 	})
 
-	// load in the templates
+	// carrega os templates
 	r.LoadHTMLGlob("templates/*")
 
-	// serve static assets
+	// carrega arquivos estáticos - como imagens, arquivos css, fontes, etc.
 	r.Static("/static", "./static")
 
-	// load and parse markdown files
+	// carrega os arquivos markdown (posts) e "traduz" para HTML.
 	posts, err := loadMarkdownPosts("./markdown")
 	if err != nil {
-		log.Fatal(err) // i think this fatal is ok
+		log.Fatal(err) // Se não for possivel carregar nada, causa um erro
 	}
 
-	// single route for the home page
+	// Roteamento da página principal
 	r.GET("/", func(c *gin.Context) {
 		indexPath := "./markdown/index.md"
 		indexContent, err := os.ReadFile(indexPath)
 		if err != nil {
-			log.Printf("Error occurred during operation: %v\n", err)
-			c.JSON(http.StatusInternalServerError, gin.H{"error": "Internal Server Error"})
+			log.Printf("Erro durante operacao: %v\n", err)
+			c.JSON(http.StatusInternalServerError, gin.H{"error": "Erro interno do servidor"})
 			return
 		}
 
 		post, err := parseMarkdownFile(indexContent)
 		if err != nil {
-			log.Printf("Error occurred during operation: %v\n", err)
-			c.JSON(http.StatusInternalServerError, gin.H{"error": "Internal Server Error"})
+			log.Printf("Erro durante operacao: %v\n", err)
+			c.JSON(http.StatusInternalServerError, gin.H{"error": "Erro interno do servidor"})
 			return
 		}
 
@@ -134,7 +134,7 @@ func main() {
 		})
 	})
 
-	// routes for each blog post, based of of Slug following the /
+	// roteamento de cada post, com base no slug (resultado: posts em /{{slug}})
 	for _, post := range posts {
 		localPost := post
 		if localPost.Slug != "" {
@@ -155,13 +155,13 @@ func main() {
 				})
 			})
 		} else {
-			log.Printf("Warning: Post titled '%s' has an empty slug and will not be accessible via a unique URL.\n", localPost.Title)
+			log.Printf("AVISO: Post '%s' está com o slug vazio, e não vai ser acessável via uma única URL.\n", localPost.Title)
 		}
 	}
 
 	r.NoRoute(func(c *gin.Context) {
 		c.HTML(http.StatusNotFound, "404.html", gin.H{
-			"Title": "Page Not Found",
+			"Title": "Não existe",
 		})
 	})
 
@@ -198,13 +198,13 @@ func loadMarkdownPosts(dir string) ([]BlogPost, error) {
 func parseMarkdownFile(content []byte) (BlogPost, error) {
 	sections := strings.SplitN(string(content), "---", 2)
 	if len(sections) < 2 {
-		return BlogPost{}, errors.New("invalid markdown format")
+		return BlogPost{}, errors.New("o texto markdown não pôde ser formatado")
 	}
 
 	metadata := sections[0]
 	mdContent := sections[1]
 
-	// deal with rogue \r's
+	// lida com \r (carriage returns)
 	metadata = strings.ReplaceAll(metadata, "\r", "")
 	mdContent = strings.ReplaceAll(mdContent, "\r", "")
 
@@ -294,8 +294,8 @@ func parseMetadata(metadata string) (
 	orderStr = strings.TrimSpace(orderStr)
 	order, err := strconv.Atoi(orderStr)
 	if err != nil {
-		log.Printf("Error converting order from string: %v", err)
-		order = 9999
+		log.Printf("Erro convertendo ordem a partir de string: %v", err)
+		order = 9999 // por segurança, deixar este valor bem alto
 	}
 
 	return title, slug, parent, description, order, metaDescriptionStr,
@@ -325,12 +325,12 @@ func loadSidebarData(dir string) (SidebarData, error) {
 		}
 	}
 
-	// convert map to slice
+	// Transforma mapa em vetor/arranjo
 	for _, cat := range categoriesMap {
 		sidebar.Categories = append(sidebar.Categories, *cat)
 	}
 
-	// sort categories by order
+	// organiza categorias por ordem
 	sort.Slice(sidebar.Categories, func(i, j int) bool {
 		return sidebar.Categories[i].Order < sidebar.Categories[j].Order
 	})
@@ -349,27 +349,27 @@ func createSidebarLinks(headers []string) template.HTML {
 }
 
 func sanitizeHeaderForID(header string) string {
-	// lowercase
+	// passa para letras minusculas
 	header = strings.ToLower(header)
 
-	// replace spaces with hyphens
+	// troca espaços por hífens
 	header = strings.ReplaceAll(header, " ", "-")
 
-	// remove any characters that are not alphanumeric or hyphens
+	// remover todos os caracteres que não são letras, números ou hífens
 	header = regexp.MustCompile(`[^a-z0-9\-]`).ReplaceAllString(header, "")
 
 	return header
 }
 
-func dict(values ...interface{}) (map[string]interface{}, error) {
+func dict(values ...any) (map[string]any, error) {
 	if len(values)%2 != 0 {
-		return nil, errors.New("invalid dict call")
+		return nil, errors.New("chamada inválida de dicionario")
 	}
-	dict := make(map[string]interface{}, len(values)/2)
+	dict := make(map[string]any, len(values)/2)
 	for i := 0; i < len(values); i += 2 {
 		key, ok := values[i].(string)
 		if !ok {
-			return nil, errors.New("dict keys must be strings")
+			return nil, errors.New("as chaves do dicionario devem ser strings")
 		}
 		dict[key] = values[i+1]
 	}
