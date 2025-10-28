@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,24 +8,32 @@
     <link rel="stylesheet" href="/static/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
+
 <body>
     <div class="container">
-        
-          {{ template "sidebar.html" dict "Categories" .SidebarData.Categories "CurrentSlug" .CurrentSlug }}
+
+        {{ template "sidebar.html" dict "Categories" .SidebarData.Categories "CurrentSlug" .CurrentSlug }}
         <main class="main-content">
-            <h1>404 page not found</h1>
+            <h1>404 essa página não existe.</h1>
             <p class="description">{{ .Description }}</p>
             <hr />
-            <h2>Oops</h2>
+            <h2>Ei! Essa página não existe!</h2>
 
-            <p>Your 404 message.</p>
+            <p>Caso tenha chegado aqui sem mexer na URL, por favor, mandar email para <u>mahzze.personal@gmail.com</u>
+            </p>
+            <p>Agora, caso contrário, isto é, caso tenha descoberto essa página mexendo aleatóriamente na URL:</p>
+            <p>Parabéns por chegar até aqui. Mas de verdade...</p>
+            <p>O que você tava procurando? Uma /admin? Ou talvez um robots.txt? Um .git ou .env?</p>
+            <p>O que quer que esteja procurando no código... dá pra tentar não quebrar o meu site?</p>
+            <p>É muito mais fácil tentar achar defeito no código diretamente, no repo do github.</p>
 
             {{ template "footer.html" }}
 
         </main>
-        
+
         {{ template "sidebar-right.html" . }}
 
     </div>
 </body>
+
 </html>
