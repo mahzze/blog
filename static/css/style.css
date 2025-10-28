@@ -92,6 +92,10 @@ body, html {
     background-color: #99daff;
 }
 
+#footer p {
+    text-align: center;
+}
+
 .sidebar h1, .sidebar p {
     color: #d4d4d4;
     margin: 0;
@@ -136,7 +140,6 @@ a {
     top: 0;
     max-height: 100vh;
     overflow-y: auto;
-
 }
 
 .toc {
