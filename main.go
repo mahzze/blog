@@ -68,7 +68,7 @@ type Category struct {
 	Order int
 }
 
-var BaseURL = "http://localhost:8080"
+var BaseURL = "http://mahzze.dev"
 
 func main() {
 	gin.SetMode(gin.ReleaseMode)

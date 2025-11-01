@@ -1,4 +1,4 @@
-module github.com/0xflux/bloggr
+module github.com/mahzze/blog
 
 go 1.21.4
 
