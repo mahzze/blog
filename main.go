@@ -68,7 +68,18 @@ type Category struct {
 	Order int
 }
 
-var BaseURL = "http://mahzze.dev"
+// Isso nao deveria ser hard-coded, como está aqui
+// Mas ficará aqui apenas pelo bem da simplicidade
+// Normalmente deveria ficar em uma variável de ambiente
+// E então deveria ser feito algo como
+//
+// port := os.getenv($PORT)
+// domain:= os.getenv($DOMAIN)
+// <PONDERANDO>
+// Talvez o BaseURL nem mesmo faça mais sentido daqui a algumas commits
+// e precise ser removido do código
+
+var BaseURL = "http://mahzze.dev:443"
 
 func main() {
 	gin.SetMode(gin.ReleaseMode)
