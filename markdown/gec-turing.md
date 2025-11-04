@@ -9,7 +9,8 @@ MetaOgURL: https://www.mahzze.dev/
 
 O seguinte texto é um artigo que escrevi para o guia dos entusiastas da ciência (GEC). Este texto e vários outros podem ser encontrados no site oficial do guia: https://gec.proec.ufabc.edu.br
 
-![#acessibilidade: A imagem é de uma máquina de escrever acinzentada colocada sobre um chão de madeira.](/static/images/gec-turing-capa) 
+---
+![#acessibilidade: A imagem é de uma máquina de escrever acinzentada colocada sobre um chão de madeira.](/static/images/gec-turing-capa.jpeg) 
 
 Você sabe como um computador funciona? Talvez já tenha ouvido falar que computadores são apenas calculadoras impressionantes que usam somente 0s e 1s, mas qual a teoria por trás disso? 
 
