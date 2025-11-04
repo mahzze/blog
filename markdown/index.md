@@ -8,12 +8,12 @@ MetaOgURL: https://www.mahzze.com/
 
 À prof. Andrea: os artigos podem ser encontrados na seção EDS do site. Caso queira consultar algum em específico, pode utilizar o site, ou então pode clicar nos links abaixo para te redirecionar:
 
-- [Artigo 1 - Nosce te ipsum](www.mahzze.dev/eds-artigo-1)
-- [Artigo 2 - Nosce te ipsum](www.mahzze.dev/eds-artigo-2)
-- [Artigo 3 - Nosce te ipsum](www.mahzze.dev/eds-artigo-3)
-- [Artigo 4 - Nosce te ipsum](www.mahzze.dev/eds-artigo-4)
-- [Artigo 5 - Nosce te ipsum](www.mahzze.dev/eds-artigo-5)
-- [Artigo 6 - Nosce te ipsum](www.mahzze.dev/eds-artigo-6)
+- [Artigo 1 - Nosce te ipsum](/eds-artigo-1)
+- [Artigo 2 - Nosce te ipsum](/eds-artigo-2)
+- [Artigo 3 - Nosce te ipsum](/eds-artigo-3)
+- [Artigo 4 - Nosce te ipsum](/eds-artigo-4)
+- [Artigo 5 - Nosce te ipsum](/eds-artigo-5)
+- [Artigo 6 - Nosce te ipsum](/eds-artigo-6)
 
 ---
 
