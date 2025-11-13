@@ -65,9 +65,9 @@ Detalhes mudam, mas a visão geral é uma só: computadores foram criados a part
 
 Fontes:
 
-Artigo no qual Turing descreveu sua máquina. https://londmathsoc.onlinelibrary.wiley.com/doi/epdf/10.1112/plms/s2-42.1.230
+- Artigo no qual Turing descreveu sua máquina. https://londmathsoc.onlinelibrary.wiley.com/doi/epdf/10.1112/plms/s2-42.1.230
 
-[Boy Who Wanted to ‘Make a Typewriter’ Instead Became Father of Computer Science](https://oztypewriter.blogspot.com/2013/09/boy-who-wanted-to-make-typewriter.html) 
+- [Boy Who Wanted to ‘Make a Typewriter’ Instead Became Father of Computer Science](https://oztypewriter.blogspot.com/2013/09/boy-who-wanted-to-make-typewriter.html) 
 
 Imagem destacada: 
 Para saber mais:
