@@ -7,6 +7,6 @@ MetaDescription: Complexidade computacional e o problema mais importante do mil�
 MetaOgURL: https://www.mahzze.dev/
 ---
 
-O seguinte texto é um artigo que escrevi para o guia dos entusiastas da ciência (GEC). Este texto e vários outros podem ser encontrados no site oficial do guia: https://gec.proec.ufabc.edu.br
+O seguinte texto é um artigo que escrevi para o guia dos entusiastas da ciência (GEC). Este texto especificamente ainda não foi (e talvez nem seja) publicado. Outros como ele podem ser encontrados no blog: https://gec.proec.ufabc.edu.br
 
 ---
