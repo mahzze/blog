@@ -7,7 +7,7 @@ MetaOgURL: https://www.mahzze.com/
 ---
 
 À prof. Andrea: os artigos podem ser encontrados na seção EDS do site. Alguns deles estão com títulos personalizados, mas a numeração na frente do post deixa claro qual é o artigo de cada aula.
-(/eds-artigo-1)[Clique aqui caso queira ler o primeiro.]
+[Clique aqui caso queira ler o primeiro.](/eds-artigo-1)
 
 ---
 
