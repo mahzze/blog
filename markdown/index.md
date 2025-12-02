@@ -6,8 +6,9 @@ MetaDescription: Olá, esta é a minha página principal
 MetaOgURL: https://www.mahzze.com/
 ---
 
-À prof. Andrea: os artigos podem ser encontrados na seção EDS do site. Alguns deles estão com títulos personalizados, mas a numeração na frente do post deixa claro qual é o artigo de cada aula.
-[Clique aqui caso queira ler o primeiro.](/eds-artigo-1)
+À prof. Andrea: os artigos podem ser encontrados na seção EDS do site, na barra lateral (ou no menu que abre quando clica nos três traços na parte superior do site, caso esteja pelo celular). Alguns deles estão com títulos personalizados, mas a numeração na frente do post deixa claro qual é o artigo de cada aula.
+
+[Clique aqui para ler o primeiro.](/eds-artigo-1)
 
 ---
 
