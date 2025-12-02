@@ -6,14 +6,8 @@ MetaDescription: Olá, esta é a minha página principal
 MetaOgURL: https://www.mahzze.com/
 ---
 
-À prof. Andrea: os artigos podem ser encontrados na seção EDS do site. Caso queira consultar algum em específico, pode utilizar o site, ou então pode clicar nos links abaixo para te redirecionar:
-
-- [Artigo 1 - Nosce te ipsum](/eds-artigo-1)
-- [Artigo 2 - Hábitos e educação](/eds-artigo-2)
-- [Artigo 3 - Mapeamento de identidade](/eds-artigo-3)
-- [Artigo 4 - Etnia e Gênero](/eds-artigo-4)
-- [Artigo 5 - Família](/eds-artigo-5)
-- [Artigo 6 - Aversão a água benta](/eds-artigo-6)
+À prof. Andrea: os artigos podem ser encontrados na seção EDS do site. Alguns deles estão com títulos personalizados, mas a numeração na frente do post deixa claro qual é o artigo de cada aula.
+(/eds-artigo-1)[Clique aqui caso queira ler o primeiro.]
 
 ---
 
