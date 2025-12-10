@@ -18,6 +18,7 @@ MetaOgURL: https://www.mahzze.com/
  se tornou um diferencial entre produtos, ao invés de algo tido como norma. O motivo disso é simples: **dados são lucrativos**.
 
 #  Precarização do emprego e de código
+
  Dados, no entanto, não se coletam sozinhos. Por trás de cada byte de informação coletado, existe um trabalho humano de um programador para que seja feita essa coleta (em anos mais recentes, IAs
  se desenvolveram muito, então é possível que em algumas ocasiões, IAs sejam responsáveis pela coleta de dados).
 
@@ -45,6 +46,7 @@ MetaOgURL: https://www.mahzze.com/
  quando observando o início da amostra de dados (janeiro de 2020) com o fim (dezembro de 2023), com a quantidade atingindo o dobro em 2024. Um claro indício de redução significativa na qualidade.
 
  # fontes
+ 
  https://www.jusbrasil.com.br/artigos/itau-demite-cerca-de-mil-funcionarios-apos-monitorar-cliques-ate-onde-vai-o-controle-do-empregador-no-home-office/4830594556
  https://www.gitclear.com/coding_on_copilot_data_shows_ais_downward_pressure_on_code_quality
  https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-on-code-quality/
