@@ -1,7 +1,7 @@
 Title: 1 - Nosce te ipsum
 Parent: EDS
 Order: 1
-Slug: eds-artigo-1
+Slug: 01-eds-artigo
 MetaPropertyTitle: Minha nova página inicial.
 MetaDescription: 1-quem sou?
 MetaOgURL: https://www.mahzze.com/

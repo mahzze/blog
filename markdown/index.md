@@ -1,6 +1,6 @@
 Title: Página inicial
 Parent: /(0_0)/
-Order: 1
+Order: 0
 MetaPropertyTitle: Minha nova página inicial.
 MetaDescription: Olá, esta é a minha página principal
 MetaOgURL: https://www.mahzze.com/
@@ -8,7 +8,7 @@ MetaOgURL: https://www.mahzze.com/
 
 À prof. Andrea: os artigos podem ser encontrados na seção EDS do site, na barra lateral (ou no menu que abre quando clica nos três traços na parte superior do site, caso esteja pelo celular). Alguns deles estão com títulos personalizados, mas a numeração na frente do post deixa claro qual é o artigo de cada aula.
 
-[Clique aqui para ler o primeiro.](/eds-artigo-1)
+[Clique aqui para ler o primeiro.](/01-eds-artigo)
 
 ---
 

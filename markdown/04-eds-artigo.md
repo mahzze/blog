@@ -1,7 +1,7 @@
 Title: 4 - Etnia e Gênero
 Parent: EDS
-Order: 4
-Slug: eds-artigo-4
+Order: 1
+Slug: 04-eds-artigo
 MetaPropertyTitle: etnigen
 MetaDescription: 4-etnigen
 MetaOgURL: https://www.mahzze.com/

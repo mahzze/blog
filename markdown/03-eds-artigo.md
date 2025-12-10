@@ -1,7 +1,7 @@
 Title: 3 - Mapeamento de Identidade
 Parent: EDS
-Order: 3
-Slug: eds-artigo-3
+Order: 1
+Slug: 03-eds-artigo
 MetaPropertyTitle: Identidade
 MetaDescription: 3-Identidade
 MetaOgURL: https://www.mahzze.com/

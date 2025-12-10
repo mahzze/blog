@@ -1,7 +1,7 @@
 Title: 11 - Uberização e plataformização; IA e big data.
 Parent: EDS
-Order: 11
-Slug: eds-artigo-11
+Order: 1
+Slug: 11-eds-artigo
 MetaPropertyTitle: uberizacao
 MetaDescription: 11-uber
 MetaOgURL: https://www.mahzze.com/

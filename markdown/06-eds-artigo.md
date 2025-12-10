@@ -1,7 +1,7 @@
 Title: 6 - Aversão a água benta
 Parent: EDS
-Order: 6
-Slug: eds-artigo-6
+Order: 1
+Slug: 06-eds-artigo
 MetaPropertyTitle: religiosidade
 MetaDescription: 6-religiosidade
 MetaOgURL: https://www.mahzze.com/

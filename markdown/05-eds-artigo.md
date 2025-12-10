@@ -1,7 +1,7 @@
 Title: 5 - Família
 Parent: EDS
-Order: 5
-Slug: eds-artigo-5
+Order: 1
+Slug: 05-eds-artigo
 MetaPropertyTitle: Familia
 MetaDescription: 5-Familia
 MetaOgURL: https://www.mahzze.com/

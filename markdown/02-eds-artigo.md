@@ -1,7 +1,7 @@
 Title: 2 - Hábitos e educação
 Parent: EDS
-Order: 2
-Slug: eds-artigo-2
+Order: 1
+Slug: 02-eds-artigo
 MetaPropertyTitle: Interculturalidade
 MetaDescription: 2-interculturalidade
 MetaOgURL: https://www.mahzze.com/

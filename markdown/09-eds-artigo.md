@@ -1,7 +1,7 @@
 Title: 9 - Debian, ódio ao Windows, GEC.
 Parent: EDS
-Order: 9
-Slug: eds-artigo-9
+Order: 1
+Slug: 09-eds-artigo
 MetaPropertyTitle: conflitos
 MetaDescription: 8-conflitos
 MetaOgURL: https://www.mahzze.com/
