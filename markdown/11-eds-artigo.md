@@ -6,7 +6,7 @@ MetaPropertyTitle: uberizacao
 MetaDescription: 11-uber
 MetaOgURL: https://www.mahzze.com/
 ---
-# Onde está a tecnologia em meu cotidiano?
+## Onde está a tecnologia em meu cotidiano?
  Como já mencionado múltiplas vezes nos outros artigos, sou um jovem que faz parte da geração Z, a primeira considerada *"nativa digital"*. Além disso, sou programador, então também 
  sou mais imerso em tecnologia (no que se refere a aspectos técnicos) do que a maior parte da minha geração.
  
@@ -17,7 +17,7 @@ MetaOgURL: https://www.mahzze.com/
  em níveis nunca antes vistos de dados. Neste contexto, as big techs aumentaram em suas práticas abusivas de coleta de dados de tal forma que a privacidade e a não-coleta de dados de maneira invasiva
  se tornou um diferencial entre produtos, ao invés de algo tido como norma. O motivo disso é simples: **dados são lucrativos**.
 
-#  Precarização do emprego e de código
+## Precarização do emprego e de código
 
  Dados, no entanto, não se coletam sozinhos. Por trás de cada byte de informação coletado, existe um trabalho humano de um programador para que seja feita essa coleta (em anos mais recentes, IAs
  se desenvolveram muito, então é possível que em algumas ocasiões, IAs sejam responsáveis pela coleta de dados).
@@ -45,8 +45,10 @@ MetaOgURL: https://www.mahzze.com/
  Um resultado ainda mais alarmante pode ser retirado da mesma pesquisa: a quantidade de linhas de código que continham mudanças eram desfeitas ou alteradas menos de duas semanas após serem implementadas quase dobrou,
  quando observando o início da amostra de dados (janeiro de 2020) com o fim (dezembro de 2023), com a quantidade atingindo o dobro em 2024. Um claro indício de redução significativa na qualidade.
 
- # fontes
+
+ ## fontes
  
+
  https://www.jusbrasil.com.br/artigos/itau-demite-cerca-de-mil-funcionarios-apos-monitorar-cliques-ate-onde-vai-o-controle-do-empregador-no-home-office/4830594556
  https://www.gitclear.com/coding_on_copilot_data_shows_ais_downward_pressure_on_code_quality
  https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-on-code-quality/

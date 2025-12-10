@@ -6,7 +6,7 @@ MetaPropertyTitle: avaliacaoparcial
 MetaDescription: 7-avaliacaoparcial
 MetaOgURL: https://www.mahzze.com/
 ---
-# Parte 1 - site dos grupos
+## Parte 1 - site dos grupos
 Antes de falar do site em gurupo, falarei dos sites e do que foi publicado em cada um.
 
 Primeiramente, o site do membro Henrique, um amigo que fiz na UFABC , em um evento, antes mesmo do primeiro dia de aula. Ao ler o exposto no site dele, pouco me foi novidade, pois já o conheço há mais de um ano e meio.
@@ -22,7 +22,7 @@ culturas e a criação dela são muito diferentes das minhas. A cada post era me
 
 Já os outros 2 membros, Henrique Torres e Marina, foram experiências mistas de identificação e estranheza. O Torres, com a história de seu pai, me lembrou o meu próprio pai, que também trabalhou em diversas profissões, já construiu casas e hoje mora em Sorocaba. Ao mesmo tempo, meu pai nunca buscou uma educação formal, não possuindo até hoje o ensino fundamental completo.
 
-# Parte 2 - Site individual (este mesmo)
+## Parte 2 - Site individual (este mesmo)
 > GO + HTML + Markdown = blog goes brrrrrr!
 
 Na porção individual da matéria, não mais foram decorrentes as novidades sobre outras pessoas e nem sobre mim.
