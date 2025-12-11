@@ -45,10 +45,9 @@ MetaOgURL: https://www.mahzze.com/
  Um resultado ainda mais alarmante pode ser retirado da mesma pesquisa: a quantidade de linhas de código que continham mudanças eram desfeitas ou alteradas menos de duas semanas após serem implementadas quase dobrou,
  quando observando o início da amostra de dados (janeiro de 2020) com o fim (dezembro de 2023), com a quantidade atingindo o dobro em 2024. Um claro indício de redução significativa na qualidade.
 
-
- ## fontes
- 
-
+ ## Fontes
  https://www.jusbrasil.com.br/artigos/itau-demite-cerca-de-mil-funcionarios-apos-monitorar-cliques-ate-onde-vai-o-controle-do-empregador-no-home-office/4830594556
+
  https://www.gitclear.com/coding_on_copilot_data_shows_ais_downward_pressure_on_code_quality
+
  https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-on-code-quality/

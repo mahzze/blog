@@ -81,7 +81,10 @@ Para saber mais:
 Outros divulgadores:
 
 Caso queira
+
 - desenvolver na prática uma noção de como computadores usam circuitos eletrônicos e onde diferem das máquinas de Turing, recomendo o jogo: https://store.steampowered.com/app/1444480/Turing_Complete/
+
 - um vídeo mais técnico com uma breve explicação histórica e que aborda temas além deste artigo: https://www.youtube.com/watch?v=G4MvFT8TGII 
+
 - um vídeo mais simples e curto que também explique o que é uma máquina de turing: https://www.youtube.com/watch?v=dNRDvLACg5Q 
 
