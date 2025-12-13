@@ -63,14 +63,13 @@ Na verdade, não apenas é possível, como já foi feito. Existem diferenças en
 
 Detalhes mudam, mas a visão geral é uma só: computadores foram criados a partir do modelo da máquina de Turing. Essa torna-se então um testamento matemático de que complexidade pode ser resolvida com simplicidade, pois, simples como ela é, abstraída dos elementos mais básicos e crús de uma máquina de escrever, e contando com um alfabeto fixo constituído por meros dois símbolos, ela baseia todo o comportamento lógico e abstrato das máquinas mais complexas e consolida, possivelmente, o uso mais difundido dentre todas as invenções tecnológicas. 
 
-Fontes:
+## Fontes:
 
 - Artigo no qual Turing descreveu sua máquina. https://londmathsoc.onlinelibrary.wiley.com/doi/epdf/10.1112/plms/s2-42.1.230
 
 - [Boy Who Wanted to ‘Make a Typewriter’ Instead Became Father of Computer Science](https://oztypewriter.blogspot.com/2013/09/boy-who-wanted-to-make-typewriter.html) 
 
-Imagem destacada: 
-Para saber mais:
+## Para saber mais:
 
 - [Artigo que explica operações binárias](https://embarcados.com.br/operacoes-com-sistemas-binarios/)
 
@@ -78,7 +77,7 @@ Para saber mais:
 
 - [Ada Lovelace e os números de Bernoulli](https://gec.proec.ufabc.edu.br/profissao-cientista/ada-lovelace/)
 
-Outros divulgadores:
+## Outros divulgadores:
 
 Caso queira
 
